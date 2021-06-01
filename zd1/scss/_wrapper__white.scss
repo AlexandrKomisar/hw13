@@ -1,0 +1,70 @@
+.wrapper__white {
+  background-image: url(../img/img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1001px;
+
+  &.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    &__logo {
+      font-size: 50px;
+      font-family: "Pacifico", cursive;
+    }
+
+    &__menu-list-item {
+      display: inline;
+      font-size: 16px;
+      width: 80px;
+      padding: 10px;
+    }
+
+    &__menu-list-item-link {
+      text-decoration: none;
+      color: #262626;
+
+      &:active {
+        text-decoration: none;
+        color: #262626;
+      }
+      &:hover {
+        text-decoration: overline 3px #ff6033;
+      }
+    }
+  }
+  .content {
+    padding: 250px 0 0 10%;
+
+    &___main {
+      width: 400px;
+      height: 300px;
+    }
+    &__title {
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      font-size: 60px;
+    }
+    &__text {
+      font-size: 17px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 300;
+      line-height: 1.5;
+    }
+    &__button {
+      background: #ff6033;
+      border: 0;
+      color: #ffffff;
+      font-size: 20px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 300;
+      width: 200px;
+      height: 55px;
+      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    }
+  }
+}

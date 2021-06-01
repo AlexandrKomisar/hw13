@@ -1,0 +1,33 @@
+.wrapper__services {
+  display: flex;
+  background: #70bfff;
+  justify-content: space-between;
+  padding: 100px 10% 150px 10%;
+}
+
+.wrapper__services__btn-item {
+  width: 400px;
+  height: 100px;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  color: #262626;
+  font-weight: bold;
+}
+
+.wrapper__services__services-tomato {
+  position: relative;
+}
+
+.wrapper__services__services-title {
+  color: #ffffff;
+  font-size: 90px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  right: 10%;
+  padding-top: 200px;
+}
+/*# sourceMappingURL=wrapper__services.css.map */
